@@ -1,0 +1,22 @@
+node_modules/
+.next/
+out/
+coverage/
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# Local environment and secrets (keep documented examples)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated/editor artifacts
+.turbo/
+.vercel/
+.netlify/
+.vscode/
+.idea/
+Thumbs.db
